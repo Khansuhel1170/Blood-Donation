@@ -1,0 +1,56 @@
+body {
+  background-color: #000;
+  background-image: url("../images/auth-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.auth-wrapper {
+  padding: 20px;
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.auth-card {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px 10px;
+
+  .auth-header {
+    margin-bottom: 25px;
+
+    .card-title {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .form-action-area {
+    margin-top: 25px;
+  }
+
+  .auth-bottom-area {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+
+    .btn-link {
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .auth-wrapper {
+    justify-content: center;
+  }
+}

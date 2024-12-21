@@ -1,0 +1,114 @@
+/* Updated CSS for the message div */
+.message {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    z-index: 999999999 !important;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: opacity 0.5s ease;
+}
+
+/* Updated CSS for the close button */
+#close-message {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Updated CSS for message content */
+#message-content {
+    font-weight: normal;
+}
+
+/* CSS for error message */
+#message-error {
+    color: red;
+    font-size: 15px;
+}
+
+/* CSS for success message */
+#message-success {
+    color: green;
+    font-weight: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+.delete-icon {
+    color: red;
+    cursor: pointer;
+}
+
+/* CSS for sidePanel */
+#sidePanel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.5s ease;
+    z-index: 999999999 !important;
+}
+
+#sidePanel.open {
+    right: 0;
+}
+
+#sidePanel .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#sidePanel .content {
+    padding: 20px;
+}
+
+#closePanelBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#side-panel-body {
+    padding: 20px;
+}
+
+/* CSS for the button */
+
+.blood_drop {
+    background-size: contain;
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 10px;
+}
